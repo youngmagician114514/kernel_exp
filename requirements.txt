@@ -1,0 +1,11 @@
+# Core runtime
+torch
+triton
+
+# Optional but useful for environment / experiment scripts
+cupy-cuda12x
+
+# Notes:
+# 1. Install torch with the wheel/index that matches your CUDA version.
+# 2. `triton` version should be chosen to match your installed torch version.
+# 3. `cupy-cuda12x` is only needed for environment inspection or auxiliary GPU experiments.

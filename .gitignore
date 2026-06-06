@@ -1,0 +1,14 @@
+.conda-vllm-srv/
+.conda_tmp/
+.conda_cache/
+.triton_cache/
+code/**/__pycache__/
+code/results/
+plan/
+*简历*.tex
+*简历*.pdf
+*resume*
+*Resume*
+*.aux
+*.log
+*.out
