@@ -1,0 +1,13 @@
+{
+  "vocab_size": 8192,
+  "seq_len": 512,
+  "d_model": 512,
+  "n_layer": 8,
+  "n_head": 8,
+  "n_kv_head": 4,
+  "d_ff": 1536,
+  "dropout": 0.0,
+  "norm_eps": 1e-5,
+  "rope_theta": 10000.0,
+  "tie_embeddings": true
+}

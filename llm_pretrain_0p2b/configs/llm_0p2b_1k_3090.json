@@ -1,0 +1,18 @@
+{
+  "vocab_size": 32000,
+  "seq_len": 1024,
+  "d_model": 768,
+  "n_layer": 24,
+  "n_head": 12,
+  "n_kv_head": 4,
+  "d_ff": 2560,
+  "dropout": 0.0,
+  "norm_eps": 1e-05,
+  "rope_theta": 10000.0,
+  "tie_embeddings": true,
+  "use_triton_rmsnorm": false,
+  "qkv_bias": false,
+  "attn_out_bias": false,
+  "mlp_bias": false,
+  "initializer_range": 0.02
+}

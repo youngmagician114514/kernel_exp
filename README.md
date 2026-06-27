@@ -16,6 +16,7 @@
 1. `GEMM`
 2. `FlashAttention`
 3. `Sparse MoE`
+4. `从零预训练 0.2B LLM`
 
 ## 目录结构
 
@@ -27,6 +28,7 @@ kernel_exp/
 │   ├── README.md
 │   ├── kernel_exp_project/
 │   └── scripts/
+├── llm_pretrain_0p2b/
 ├── doc/
 │   ├── gemm_*.md
 │   ├── flash_attention_*.md
@@ -55,6 +57,13 @@ kernel_exp/
 - `doc/moe_v2_summary.md`
 - `doc/moe_v3_summary.md`
 - `doc/moe_v4_summary.md`
+
+### 从零预训练 0.2B LLM
+
+- `llm_pretrain_0p2b/README.md`
+- `llm_pretrain_0p2b/ROADMAP.md`
+- `llm_pretrain_0p2b/POSTTRAINING.md`
+- `llm_pretrain_0p2b/src/llm0/kernels/`
 
 ## 运行环境
 

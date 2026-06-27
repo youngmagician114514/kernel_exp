@@ -4,6 +4,11 @@
 .triton_cache/
 code/**/__pycache__/
 code/results/
+llm_pretrain_0p2b/**/__pycache__/
+llm_pretrain_0p2b/checkpoints/
+llm_pretrain_0p2b/data/
+llm_pretrain_0p2b/runs/
+llm_pretrain_0p2b/results/
 plan/
 *简历*.tex
 *简历*.pdf
